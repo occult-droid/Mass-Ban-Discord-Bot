@@ -10,7 +10,7 @@ const client = new Client({
   ]
 });
 
-const AUTHORIZED_USER_ID = 'Your Discord ID';
+const AUTHORIZED_USER_ID = 'Your-Discord-ID';
 
 client.once('ready', async () => {
   console.log(`${client.user.tag} is online`);
@@ -71,5 +71,6 @@ client.on('messageCreate', async (message) => {
     }
   }
 });
+
 
 client.login('Bot-Token-Here');
